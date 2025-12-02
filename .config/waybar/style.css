@@ -29,7 +29,7 @@ window#waybar.empty #window {
   background: transparent;
   color: transparent;
   padding: 0;
-  margin-left: 5;
+  margin-left: 5px;
   transition: 0.5s;
 }
 
@@ -80,8 +80,8 @@ mpris.empty {
 #custom-update {
   background-color: transparent;
 
-  padding: 5 5 5 5;
-  margin: 5 0 5 0;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 0px 5px 0px;
 }
 
 #workspaces {
@@ -109,8 +109,8 @@ mpris.empty {
 #memory,
 #custom-weather {
   background-color: transparent;
-  margin: 5 5 5 5;
-  padding: 0 2 0 2;
+  margin: 5px 5px 5px 5px;
+  padding: 0px 2px 0px 2px;
 }
 
 #custom-update {
@@ -148,7 +148,7 @@ mpris.empty {
   border-radius: 10px;
   min-width: 12px;
   font-size: 10px;
-  padding: 0 11 0 10;
+  padding: 0px 11px 0px 10px;
 }
 
 #custom-screenrecording-indicator.active {
@@ -182,7 +182,7 @@ mpris.empty {
 
 #workspaces,
 #mpris {
-  margin: 5;
+  margin: 5px;
   padding: 6px 5px;
   border-radius: 7px;
 }
@@ -194,33 +194,33 @@ mpris.empty {
 
 #tray-expander {
   background-color: alpha(@foreground, 0.1);
-  padding: 0 2 0 13;
+  padding: 0px 2px 0px 13px;
   margin-left: 4px;
   border-radius: 6px;
 }
 #backlight {
   background-color: alpha(@foreground, 0.1);
   border-radius: 7px;
-  padding: 5 10 5 10;
+  padding: 5px 10px 5px 10px;
   margin: 5px;
 }
 #network {
   background-color: alpha(@foreground, 0.3);
-  border-radius: 7px 0 0 7px;
+  border-radius: 7px 0px 0px 7px;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 5px;
 }
 #cpu {
   background-color: alpha(@foreground, 0.3);
-  border-radius: 0 7 7 0;
+  border-radius: 0px 7px 7px 0px;
   padding-right: 10px;
   margin-right: 5px;
   padding-left: 10px;
 }
 #pulseaudio {
   background-color: alpha(@foreground, 0.3);
-  padding: 0 10 0 10;
+  padding: 0px 10px 0px 10px;
 }
 
 tooltip {
